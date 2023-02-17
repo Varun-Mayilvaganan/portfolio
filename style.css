@@ -7,7 +7,10 @@
 .Nav{
     height: 100vh;
     width: 100%;
-    background-iamge:url("https://github.com/Varun-Mayilvaganan/portfolio/blob/80302289f4bc3834f8a7f1e7af36fa31bd4652be/port2.jpg");
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000000, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
     background-size: cover;
     background-position: center;
 }
